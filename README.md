@@ -19,3 +19,5 @@ This is not an easy system to configure and setup, and requires some experience 
 Better results can be achieved through the use of having Service Titan setup outgoing webhooks directly to your Rocket.Chat server, which would then negate the need to parse emails from MS Outlook.
 
 A decent amount of work to setup functionality that's close to what [MyHVACTools](https://www.myhvactools.com/) offers.
+
+Future work will be done (alteration of the partsbot.py file - to be multiple modules that provide different functionalities, along with the bypassing of MS Outlook, and future plans are to integrate into other services outside of Rocket.Chat).
