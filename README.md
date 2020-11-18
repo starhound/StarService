@@ -12,7 +12,7 @@ Once built into a executable file, you need to configure MS Outlook (or whicheve
 
 Next you need to configure an incoming webhook on your Rocket.Chat server (see the [documentation](https://docs.rocket.chat/guides/administrator-guides/integrations) for that if required). Utilize the contents of the webhook.js file as your script for the webhook.
 
-Finally, you need to configure and run partsbot.py on your Rocket.Chat system. The lines which you must configure start at 7 and ends at line 11.
+Finally, you need to configure and run partsbot.py on your Rocket.Chat system. The lines which you must configure start at 7 and ends at line 11. The python bot is built atop [Jadolg's RocketChatBot](https://github.com/jadolg/RocketChatBot)
 
 This is not an easy system to configure and setup, and requires some experience in Python and Javascript development. 
 
